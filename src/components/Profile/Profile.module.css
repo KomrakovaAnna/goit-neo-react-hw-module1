@@ -1,0 +1,68 @@
+.card {
+  width: 320px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  padding-bottom: 6px;
+}
+
+.cardHeader {
+  padding: 20px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.userName {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #060505;
+}
+
+.tag {
+  font-size: 14px;
+  color: #454343;
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  border-top: 1px solid #e1e4e8;
+}
+
+li {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  border-right: 1px solid #e1e4e8;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li span:first-child {
+  display: block;
+  font-size: 14px;
+  color: #5e5c5c;
+}
+
+li span:last-child {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
